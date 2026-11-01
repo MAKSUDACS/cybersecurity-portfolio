@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maksuda | Cybersecurity Portfolio</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">MAKSUDA<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Maksuda</span></h1>
+
+            <h2>Penetration Tester &amp;
+                <br>Security Analyst
+            </h2>
+
+            <p class="description">
+                I am passionate about cybersecurity,
+                ethical hacking, website protection
+                and digital security research.
+            </p>
+
+            <a href="#contact" class="btn">
+                Contact Me
+            </a>
+
+            <a href="#about" class="btn secondary">
+                About Me
+            </a>
+        </div>
+
+        
+<div class="profile">
+    <img src="{{ url_for('static', filename='images/profile.jpg') }}"
+         alt="Profile Picture">
+</div>
+
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+
+        <h2>About <span>Me</span></h2>
+
+        <p>
+            I am a cybersecurity enthusiast and
+            Penetration Tester interested in identifying
+            website vulnerabilities and improving
+            digital security.
+        </p>
+
+        <p>
+            My interests include Web Application Security,
+            WordPress Security, OSINT Research and Python.
+        </p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+
+        <h2>My <span>Skills</span></h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Penetration Testing</h3>
+                <p>Authorized security testing and
+                   vulnerability assessment.</p>
+            </div>
+
+            <div class="card">
+                <h3>WordPress Security</h3>
+                <p>Website security, malware removal
+                   and protection.</p>
+            </div>
+
+            <div class="card">
+                <h3>OSINT Research</h3>
+                <p>Open-source intelligence research
+                   and information analysis.</p>
+            </div>
+
+            <div class="card">
+                <h3>Python</h3>
+                <p>Python programming and basic
+                   automation.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+
+        <h2>My <span>Services</span></h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Website Security Testing</h3>
+                <p>Security assessments for
+                   authorized websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>WordPress Malware Removal</h3>
+                <p>Malware cleanup and website
+                   security improvement.</p>
+            </div>
+
+            <div class="card">
+                <h3>OSINT Investigation</h3>
+                <p>Ethical open-source research
+                   and analysis.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+
+        <h2>Contact <span>Me</span></h2>
+
+        <p>Have a project or security question?
+           Feel free to contact me.</p>
+
+        <a href="mailto:mak843614@gmail.com" class="email">
+            mak843614@gmail.com
+        </a>
+
+        <div class="social-links">
+
+            <a href="https://www.linkedin.com/in/maksuda-akter-160a52363/"
+               target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/MAKSUDACS"
+               target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.fiverr.com/sellers/ruhics/edit"
+               target="_blank" rel="noopener noreferrer">
+                Fiverr
+            </a>
+
+            <a href="https://www.facebook.com/Maksuda.Akter.669647"
+               target="_blank" rel="noopener noreferrer">
+                Facebook
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Maksuda. All Rights Reserved.</p>
+        <p>Designed with Python & Flask.</p>
+    </footer>
+
+</body>
+</html>
